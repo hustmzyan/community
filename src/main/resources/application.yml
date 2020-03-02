@@ -3,13 +3,13 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/community?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://101.37.83.137:3306/community?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 
 
 github.client.id: 29a2d1ad14bb78c67520
-github.client.secret: 9b89536447767d5e1062d4ce96a85a0aa85b89a5
+github.client.secret: 2015cc2d564728ed64c4c1035068c3114f8d7c3b
 github.redirect.uri: http://localhost:8887/callback
